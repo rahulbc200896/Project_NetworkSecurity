@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+python-dotenv
+scipy
+PyYAML
+dagshub
+fastapi
+uvicorn
+jinja2
+python-multipart
+
+#-e .

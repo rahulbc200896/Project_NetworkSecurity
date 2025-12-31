@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: Network-Security
+Version: 0.0.1
+Author: Rahul B C
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: python-dotenv
+Requires-Dist: scipy
+Requires-Dist: PyYAML
+Requires-Dist: dagshub
+Dynamic: author
+Dynamic: requires-dist
