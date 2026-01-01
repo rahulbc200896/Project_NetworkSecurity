@@ -1,0 +1,5 @@
+[2026-01-01 13:30:20,429 werkzeug 97 - WARNING -  * Debugger is active!]
+[2026-01-01 13:30:20,431 werkzeug 97 - INFO -  * Debugger PIN: 419-482-151]
+[2026-01-01 13:30:56,812 werkzeug 97 - INFO - 127.0.0.1 - - [01/Jan/2026 13:30:56] "GET /predict HTTP/1.1" 200 -]
+[2026-01-01 13:30:56,851 werkzeug 97 - INFO - 127.0.0.1 - - [01/Jan/2026 13:30:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-01-01 13:31:06,098 werkzeug 97 - INFO - 127.0.0.1 - - [01/Jan/2026 13:31:06] "POST /predict HTTP/1.1" 200 -]
