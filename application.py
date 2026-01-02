@@ -16,7 +16,8 @@ from networksecurity.utils.ml_utils.metric.estimator import NetworkModel
 load_dotenv()
 
 # Flask app
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 CORS(app)
 
 # ===============================
@@ -82,5 +83,9 @@ def predict():
 # ===============================
 # MAIN
 # ===============================
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000, debug=True)
+#if __name__ == "__main__":
+    #app.run(host="0.0.0.0", port=8000, debug=True)
+
+if __name__ =='__main__':
+    port= int(os.environ.get("PORT",8080))
+    app.run(host="0.0.0.0",port=port, debug=True)
